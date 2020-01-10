@@ -27,4 +27,4 @@ for i in range(0, t):
     for j in range(0, 3):
         p.yearPasses()       
     p.amIOld()
-    print("")
+    print('')
