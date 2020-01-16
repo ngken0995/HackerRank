@@ -14,7 +14,7 @@ if __name__ == '__main__':
         z=n*num
         print(f'{n} x {num} = {z}')
 
-#Practicing how to use "def"       
+#Practice: creating function      
 #def answer(n):
 #  for num in range(1, 11):
 #    z=n*num
