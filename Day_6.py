@@ -1,15 +1,19 @@
 t = int(input())
+word = []
 for i in range(0, t):
     s = input()
-    a = []
-    b = []
-    for j in range(0,len(s)):
-        if j == 0:
-            a.append(s[j])
-        elif j%2 == 1:
-            b.append(s[j])
-        elif j%2 == 0:
-            a.append(s[j])
-    a =''.join(a)
-    b =''.join(b)
-    print(f'{a} {b}')
+    word.append(s)
+    
+for j in range(0,len(word)):
+  a=[]
+  b=[]
+  for k in range(0,len(word[j])):
+    if k == 0:
+      a.append(word[j][k])
+    elif k%2 == 1:
+      b.append(word[j][k])
+    elif k%2 == 0:
+      a.append(word[j][k])
+  a =''.join(a)
+  b =''.join(b)
+  print(f'{a} {b}')
