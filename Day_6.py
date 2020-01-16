@@ -19,7 +19,6 @@ for j in range(0,len(word)):
   print(f'{a} {b}')
 
 #Using function
-word=[]
 
 def wordgroup():
   global word
@@ -43,3 +42,7 @@ def separate(word):
     a =''.join(a)
     b =''.join(b)
     print(f'{a} {b}')
+    
+word=[]    
+wordgroup()
+separate(word)
